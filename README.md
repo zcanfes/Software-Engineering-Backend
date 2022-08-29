@@ -1,4 +1,8 @@
-# HOW TO RUN LOCALLY
+# POSTORY - Story and Picture Sharing App - Backend
+
+This is the repository of our project that contains the backend team's code. The original repository with all the code including frontend and android can be found at: [https://github.com/bounswe/2021SpringGroup9](https://github.com/bounswe/2021SpringGroup9).
+
+## HOW TO RUN LOCALLY
 
 First, clone our github repository. Then, put the ".env" file that we provided to this path. You should be on /postory/backend path. Run:
 
@@ -14,7 +18,7 @@ docker compose up -d
 
 It will start to run on port 8000.
 
-# HOW TO DEPLOY
+## HOW TO DEPLOY
 
 First, clone our github repository. You should be on /postory/backend path. You should login to docker repository. It will ask username and password. Username is also repository name. Login command:
 
@@ -64,11 +68,11 @@ After executing these commands, backend will start to run on the machine with th
 
 IMPORTANT NOTE: The dump restoration should be made after the mongo container created.
 
-# DEPLOY USING GITHUB
+## DEPLOY USING GITHUB
 
 You can use GitHub for deployment by using workflows. If you change the secret variables of this [workflow](https://github.com/bounswe/2021SpringGroup9/blob/master/.github/workflows/backend_deploy.yml), you can deploy the backend to an instance.
 
-## ENVIRONMENT VARIABLES
+### ENVIRONMENT VARIABLES
 
 * SECRET_KEY: Django secret key.
 * MONGO_USERNAME: Username for mongo.
